@@ -14,7 +14,7 @@ namespace Reference_Type
             Rtype a = new Rtype();
             Rtype b = new Rtype();
 
-            a.value = 1;    b = a;
+            a.value = 1;    b = a;  //a가 참조하는 것을 b도 참조한다. 
             Console.WriteLine(a.value); Console.WriteLine(b.value);
 
             b.value = 2;
