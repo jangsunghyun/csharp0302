@@ -25,7 +25,6 @@ namespace 사칙연산
             int first, second;
             try {
                 first =  int.Parse(strarr[0]);
-
                 second = int.Parse(strarr[1]);
             }
             catch
@@ -34,7 +33,7 @@ namespace 사칙연산
                 return;
             }
 
-            Console.WriteLine("{0} + {1} = {2}", first,second,Calc(first,second,"+"));
+            Console.WriteLine("{0} + {1} = {2}", first, second,Calc(first,second,"+"));
             Console.WriteLine("{0} - {1} = {2}", first, second, Calc(first, second, "-"));
             Console.WriteLine("{0} * {1} = {2}", first, second, Calc(first, second, "*"));
             Console.WriteLine("{0} / {1} = {2}", first, second, Calc(first, second, "/"));
