@@ -5,7 +5,7 @@ namespace Test1
     {
         private int m = 88, n = 99;
 
-        Tester(int m = 0, int n = 0)
+        Tester(int m = 0, int n = 0)    //class 이름과 똑같이 Tester 를 이용 생성자..
         {
             this.m = m; this.n = n;
         }
