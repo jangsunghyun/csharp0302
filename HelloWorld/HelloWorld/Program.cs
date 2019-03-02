@@ -1,9 +1,13 @@
-﻿namespace HelloWorld
+﻿using System;
+
+namespace Day1  //소속
 {
-    class Program
+    class Emp
     {
-        static void Main(string[] args)
+        int i; //Heap memory
+        static void Main()
         {
+            int i; //Stack
             System.Console.WriteLine("Hello C#~");
             System.Console.WriteLine("Hello C#~");
             System.Console.WriteLine("Hello C#~");
