@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace ConsoleApplication22
-{
+{ //다형성
 
     public class Dog
     {
@@ -14,6 +14,8 @@ namespace ConsoleApplication22
     }
 
     public class Pudle : Dog {
+        // 부모에서 virtual 이 있어야 자식에서 override 를 사용할수있다. 
+        // 자식에서override 해서  재정의 가능하다.
         public override void jitda()
         {
             Console.WriteLine(Name + "푸들푸들~");
