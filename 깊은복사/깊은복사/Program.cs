@@ -1,4 +1,5 @@
 ﻿using System;
+
 class CreditCard
 {
     public string name;
@@ -6,11 +7,14 @@ class CreditCard
 
 class Customer : ICloneable
 {
-    public int age; public CreditCard card; public object Clone()
+    public int age;
+    public CreditCard card;
+
+    public object Clone()
     {
         Customer c = new Customer();
         c.age = this.age;
-
+    
         c.card = new CreditCard();
         c.card.name = this.card.name;
         return c;
