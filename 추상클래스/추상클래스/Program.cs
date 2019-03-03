@@ -6,14 +6,16 @@ using System.Threading.Tasks;
 
 namespace 추상클래스
 {
-
+    // abstract 추상클래스 아무 클래스 앞에 abstract 
     public abstract class Dog
     {
         public string Name { get; set; }
-        public abstract void jitda();
+        public abstract void jitda(); // abstract 추상 메소드는 {} 없다. 
     }
 
     public class Pudle : Dog {
+        //abstract 추상클래스 상속받아서 override로 재정이 해서 쓰라 
+        //abstract 추상 클래스는 New 해서 사용 할수 없다. 
         public override void jitda()
         {                        
             Console.WriteLine(Name + "푸들푸들~");                        
