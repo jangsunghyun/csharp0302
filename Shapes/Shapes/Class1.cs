@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 
 namespace Shapes
 {
@@ -15,6 +16,11 @@ namespace Shapes
         public double Area()
         {
             return Math.PI * (radius * radius);
+        }
+
+        public void Draw()
+        {
+            Pen p = new Pen(Color.Red);
         }
     }
 }
