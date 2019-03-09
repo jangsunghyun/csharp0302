@@ -16,7 +16,6 @@ namespace DelegateEx2
             TaskesADelegate(new MyDelegate(Minus));
             TaskesADelegate(new MyDelegate(Gop));
             TaskesADelegate(new MyDelegate(Nanugi));
-
         }
 
         public static void TaskesADelegate(MyDelegate SomeFunction)

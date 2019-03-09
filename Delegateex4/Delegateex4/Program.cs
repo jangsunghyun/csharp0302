@@ -39,6 +39,9 @@ namespace Delegateex4
             CallBack += new OnjDelegate(MainApp.Minus);
             CallBack += new OnjDelegate(m.Multiplication);
             CallBack += new OnjDelegate(m.Division);
+            
+
+
             CallBack(4, 3);
         }
     }
