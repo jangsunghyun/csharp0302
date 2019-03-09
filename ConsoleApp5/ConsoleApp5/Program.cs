@@ -20,6 +20,8 @@ namespace Delegate1
             SayHello(myHello);
         }
 
+        //컴파일 할때 런타임 중에 할일이 결정된다.. 이것을 콜배이라고 칭한다.
+        //런타임중에 파라메터의 할일이 정해 지기때문
         static void SayHello(Action hello)
         {
             hello();
