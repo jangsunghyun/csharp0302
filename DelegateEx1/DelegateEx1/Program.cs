@@ -13,6 +13,7 @@ namespace DelegateEx1
             return value * value;
         }
     }
+
     delegate double OnjDouble(double x);
 
     class DelegateTest2

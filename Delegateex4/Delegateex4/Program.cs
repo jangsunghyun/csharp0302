@@ -30,12 +30,15 @@ namespace Delegateex4
         static void Main(string[] args)
         {
             MainApp m = new MainApp();
-            OnjDelegate CallBack = (OnjDelegate)Delegate.Combine(
-                new OnjDelegate(MainApp.Plus),
-                new OnjDelegate(MainApp.Minus),
-                new OnjDelegate(m.Multiplication),
-                new OnjDelegate(m.Division));
-
+            //OnjDelegate CallBack = (OnjDelegate)Delegate.Combine(
+            //    new OnjDelegate(MainApp.Plus),
+            //    new OnjDelegate(MainApp.Minus),
+            //    new OnjDelegate(m.Multiplication),
+            //    new OnjDelegate(m.Division));
+            OnjDelegate CallBack = new OnjDelegate(MainApp.Plus);
+            CallBack += new OnjDelegate(MainApp.Minus);
+            CallBack += new OnjDelegate(m.Multiplication);
+            CallBack += new OnjDelegate(m.Division);
             CallBack(4, 3);
         }
     }
