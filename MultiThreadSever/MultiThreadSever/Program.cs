@@ -36,7 +36,7 @@ namespace MultiThreadSever
                 string str = reader.ReadLine();
                 Console.WriteLine(str);
 
-                writer.WriteLine(str);
+                //writer.WriteLine(str);
             }
         }
     }

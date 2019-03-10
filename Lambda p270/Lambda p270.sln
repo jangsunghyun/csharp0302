@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambda p270", "Lambda p270\Lambda p270.csproj", "{96979A6E-EFFE-44E9-90F2-B2297401FF0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96979A6E-EFFE-44E9-90F2-B2297401FF0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96979A6E-EFFE-44E9-90F2-B2297401FF0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96979A6E-EFFE-44E9-90F2-B2297401FF0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96979A6E-EFFE-44E9-90F2-B2297401FF0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D319961E-AEDB-40D1-96CB-FF34EB593E0F}
+	EndGlobalSection
+EndGlobal
